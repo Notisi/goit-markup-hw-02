@@ -159,6 +159,15 @@ text-align: center;
 color: #434455;
 }
 
+.portfolio {
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: #2e2f42;
+}
 /* ------------------------------------------------ */
 
 /* ------------------FOOTER------------------------- */
@@ -174,7 +183,7 @@ color: #434455;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .footer-text {
@@ -182,4 +191,14 @@ color: #434455;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #f4f4fd; 
+}
+
+.studio {
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #f4f4fd;
 }
