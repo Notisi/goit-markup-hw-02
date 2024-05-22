@@ -51,11 +51,23 @@ color: #2e2f42;
 }
 
 .header-menu-link:hover {
-    color: #4d5ae5;
+    color: #404bbf;
+}
+
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
+.adress {
+    font-style: normal;
 }
 
 .contacts:hover {
-    color: #4d5ae5;
+    color: #404bbf;
+}
+
+.contacts:focus {
+    color: #404bbf;
 }
 
 
@@ -81,11 +93,16 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.04em;
 color: #fff;
+cursor: pointer;
 background-color: #4d5ae5;
 }
 
 .hero-btn:hover {
-color: #404BBF;
+background-color: #404BBF;
+}
+
+.hero-btn:focus {
+    background-color: #404BBF;
 }
 /* ------------------------------------------------ */
 
@@ -125,10 +142,12 @@ font-size: 36px;
 line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 color: #2e2f42;
 }
 
 .team-list {
+    background-color: #FFFFFF;
 }
 
 .team-item {
